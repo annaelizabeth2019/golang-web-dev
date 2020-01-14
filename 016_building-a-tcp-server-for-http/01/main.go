@@ -47,6 +47,7 @@ func request(conn net.Conn) {
 			fmt.Println("***METHOD", m)
 		}
 		if ln == "" {
+			fmt.Println("HEADERS ARE DONE")
 			// headers are done
 			break
 		}
